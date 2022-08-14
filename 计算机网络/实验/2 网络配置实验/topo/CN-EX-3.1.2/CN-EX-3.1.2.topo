@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="1A6ADD75-A3BD-4340-A894-D304C25E9B10" name="RT-SZ" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-C8-5F-2D" com_port="2001" bootmode="0" cx="728.000000" cy="284.000000" edit_left="755" edit_top="338">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="521" />
+        </dev>
+        <dev id="CF3BBF39-9A9D-413f-99B4-41D1BEF06997" name="RT-BJ" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-E8-79-69" com_port="2000" bootmode="0" cx="519.000000" cy="285.000000" edit_left="546" edit_top="339">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="521" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="CF3BBF39-9A9D-413f-99B4-41D1BEF06997" destDeviceID="1A6ADD75-A3BD-4340-A894-D304C25E9B10">
+            <interfacePair lineName="Serial" srcIndex="3" srcBoundRectIsMoved="0" srcBoundRect_X="589.183289" srcBoundRect_Y="311.793396" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="3" tarBoundRectIsMoved="0" tarBoundRect_X="711.816711" tarBoundRect_Y="311.206604" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>

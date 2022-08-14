@@ -1,0 +1,479 @@
+{
+  "type": "Program",
+  "items": [
+    {
+      "type": "FunctionDefine",
+      "specifiers": [
+        {
+          "type": "Token",
+          "value": "int",
+          "tokenId": 0
+        }
+      ],
+      "declarator": {
+        "type": "FunctionDeclarator",
+        "declarator": {
+          "type": "VariableDeclarator",
+          "identifier": {
+            "type": "Identifier",
+            "value": "fibonacci",
+            "tokenId": 1
+          }
+        },
+        "params": [
+          {
+            "type": "ParamsDeclarator",
+            "specfiers": [
+              {
+                "type": "Token",
+                "value": "int",
+                "tokenId": 3
+              }
+            ],
+            "declarator": {
+              "type": "VariableDeclarator",
+              "identifier": {
+                "type": "Identifier",
+                "value": "n",
+                "tokenId": 4
+              }
+            }
+          }
+        ]
+      },
+      "body": {
+        "type": "CompoundStatement",
+        "blockItems": [
+          {
+            "type": "SelectionStatement",
+            "cond": [
+              {
+                "type": "BinaryExpression",
+                "op": {
+                  "type": "Token",
+                  "value": "<",
+                  "tokenId": 10
+                },
+                "expr1": {
+                  "type": "Identifier",
+                  "value": "n",
+                  "tokenId": 9
+                },
+                "expr2": {
+                  "type": "IntegerConstant",
+                  "value": 2,
+                  "tokenId": 11
+                }
+              }
+            ],
+            "then": {
+              "type": "ReturnStatement",
+              "expr": [
+                {
+                  "type": "Identifier",
+                  "value": "n",
+                  "tokenId": 14
+                }
+              ]
+            },
+            "otherwise": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "exprs": [
+              {
+                "type": "CastExpression",
+                "typename": {
+                  "type": "Typename",
+                  "specfiers": [
+                    {
+                      "type": "Token",
+                      "value": "double",
+                      "tokenId": 17
+                    }
+                  ],
+                  "declarator": null
+                },
+                "expr": {
+                  "type": "Identifier",
+                  "value": "n",
+                  "tokenId": 19
+                }
+              }
+            ]
+          },
+          {
+            "type": "Declaration",
+            "specifiers": [
+              {
+                "type": "Token",
+                "value": "int",
+                "tokenId": 21
+              }
+            ],
+            "initLists": [
+              {
+                "type": "InitList",
+                "declarator": {
+                  "type": "VariableDeclarator",
+                  "identifier": {
+                    "type": "Identifier",
+                    "value": "f",
+                    "tokenId": 22
+                  }
+                },
+                "exprs": [
+                  {
+                    "type": "IntegerConstant",
+                    "value": 0,
+                    "tokenId": 24
+                  }
+                ]
+              },
+              {
+                "type": "InitList",
+                "declarator": {
+                  "type": "VariableDeclarator",
+                  "identifier": {
+                    "type": "Identifier",
+                    "value": "g",
+                    "tokenId": 26
+                  }
+                },
+                "exprs": [
+                  {
+                    "type": "IntegerConstant",
+                    "value": 1,
+                    "tokenId": 28
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Declaration",
+            "specifiers": [
+              {
+                "type": "Token",
+                "value": "int",
+                "tokenId": 30
+              }
+            ],
+            "initLists": [
+              {
+                "type": "InitList",
+                "declarator": {
+                  "type": "VariableDeclarator",
+                  "identifier": {
+                    "type": "Identifier",
+                    "value": "result",
+                    "tokenId": 31
+                  }
+                },
+                "exprs": [
+                  {
+                    "type": "IntegerConstant",
+                    "value": 0,
+                    "tokenId": 33
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "IterationDeclaredStatement",
+            "init": {
+              "type": "Declaration",
+              "specifiers": [
+                {
+                  "type": "Token",
+                  "value": "int",
+                  "tokenId": 37
+                }
+              ],
+              "initLists": [
+                {
+                  "type": "InitList",
+                  "declarator": {
+                    "type": "VariableDeclarator",
+                    "identifier": {
+                      "type": "Identifier",
+                      "value": "i",
+                      "tokenId": 38
+                    }
+                  },
+                  "exprs": [
+                    {
+                      "type": "IntegerConstant",
+                      "value": 0,
+                      "tokenId": 40
+                    }
+                  ]
+                }
+              ]
+            },
+            "cond": [
+              {
+                "type": "BinaryExpression",
+                "op": {
+                  "type": "Token",
+                  "value": "<",
+                  "tokenId": 43
+                },
+                "expr1": {
+                  "type": "Identifier",
+                  "value": "i",
+                  "tokenId": 42
+                },
+                "expr2": {
+                  "type": "Identifier",
+                  "value": "n",
+                  "tokenId": 44
+                }
+              }
+            ],
+            "step": [
+              {
+                "type": "PostfixExpression",
+                "expr": {
+                  "type": "Identifier",
+                  "value": "i",
+                  "tokenId": 46
+                },
+                "op": {
+                  "type": "Token",
+                  "value": "++",
+                  "tokenId": 47
+                }
+              }
+            ],
+            "stat": {
+              "type": "CompoundStatement",
+              "blockItems": [
+                {
+                  "type": "ExpressionStatement",
+                  "exprs": [
+                    {
+                      "type": "BinaryExpression",
+                      "op": {
+                        "type": "Token",
+                        "value": "=",
+                        "tokenId": 51
+                      },
+                      "expr1": {
+                        "type": "Identifier",
+                        "value": "result",
+                        "tokenId": 50
+                      },
+                      "expr2": {
+                        "type": "BinaryExpression",
+                        "op": {
+                          "type": "Token",
+                          "value": "+",
+                          "tokenId": 53
+                        },
+                        "expr1": {
+                          "type": "Identifier",
+                          "value": "f",
+                          "tokenId": 52
+                        },
+                        "expr2": {
+                          "type": "Identifier",
+                          "value": "g",
+                          "tokenId": 54
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "exprs": [
+                    {
+                      "type": "BinaryExpression",
+                      "op": {
+                        "type": "Token",
+                        "value": "=",
+                        "tokenId": 57
+                      },
+                      "expr1": {
+                        "type": "Identifier",
+                        "value": "f",
+                        "tokenId": 56
+                      },
+                      "expr2": {
+                        "type": "Identifier",
+                        "value": "g",
+                        "tokenId": 58
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "exprs": [
+                    {
+                      "type": "BinaryExpression",
+                      "op": {
+                        "type": "Token",
+                        "value": "=",
+                        "tokenId": 61
+                      },
+                      "expr1": {
+                        "type": "Identifier",
+                        "value": "g",
+                        "tokenId": 60
+                      },
+                      "expr2": {
+                        "type": "Identifier",
+                        "value": "result",
+                        "tokenId": 62
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "ReturnStatement",
+            "expr": [
+              {
+                "type": "Identifier",
+                "value": "result",
+                "tokenId": 66
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDefine",
+      "specifiers": [
+        {
+          "type": "Token",
+          "value": "int",
+          "tokenId": 69
+        }
+      ],
+      "declarator": {
+        "type": "FunctionDeclarator",
+        "declarator": {
+          "type": "VariableDeclarator",
+          "identifier": {
+            "type": "Identifier",
+            "value": "main",
+            "tokenId": 70
+          }
+        },
+        "params": []
+      },
+      "body": {
+        "type": "CompoundStatement",
+        "blockItems": [
+          {
+            "type": "Declaration",
+            "specifiers": [
+              {
+                "type": "Token",
+                "value": "int",
+                "tokenId": 74
+              }
+            ],
+            "initLists": [
+              {
+                "type": "InitList",
+                "declarator": {
+                  "type": "VariableDeclarator",
+                  "identifier": {
+                    "type": "Identifier",
+                    "value": "a",
+                    "tokenId": 75
+                  }
+                },
+                "exprs": [
+                  {
+                    "type": "IntegerConstant",
+                    "value": 10,
+                    "tokenId": 77
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Declaration",
+            "specifiers": [
+              {
+                "type": "Token",
+                "value": "int",
+                "tokenId": 79
+              }
+            ],
+            "initLists": [
+              {
+                "type": "InitList",
+                "declarator": {
+                  "type": "VariableDeclarator",
+                  "identifier": {
+                    "type": "Identifier",
+                    "value": "res",
+                    "tokenId": 80
+                  }
+                },
+                "exprs": [
+                  {
+                    "type": "FunctionCall",
+                    "funcname": {
+                      "type": "Identifier",
+                      "value": "fibonacci",
+                      "tokenId": 82
+                    },
+                    "argList": [
+                      {
+                        "type": "Identifier",
+                        "value": "a",
+                        "tokenId": 84
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ExpressionStatement",
+            "exprs": [
+              {
+                "type": "FunctionCall",
+                "funcname": {
+                  "type": "Identifier",
+                  "value": "_OUTPUT",
+                  "tokenId": 87
+                },
+                "argList": [
+                  {
+                    "type": "Identifier",
+                    "value": "res",
+                    "tokenId": 89
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ReturnStatement",
+            "expr": [
+              {
+                "type": "IntegerConstant",
+                "value": 0,
+                "tokenId": 93
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

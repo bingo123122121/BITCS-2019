@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: jdom.jar Rars.jar jython.jar Mars4_5.jar dom4j-1.6.1.jar jax
+ en-1.1-beta-6.jar antlr-4.8-complete.jar jackson-core-2.10.2.jar BITMin
+ iCC_20200404_obf.jar jackson-databind-2.10.2.jar jackson-annotations-2.
+ 10.2.jar jdom.jar Rars.jar jython.jar Mars4_5.jar dom4j-1.6.1.jar jaxen
+ -1.1-beta-6.jar antlr-4.8-complete.jar jackson-core-2.10.2.jar BITMiniC
+ C_20200404_obf.jar jackson-databind-2.10.2.jar jackson-annotations-2.10
+ .2.jar
+

@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "fstream": "cpp"
+    },
+
+    /* Haskell ghc-mod配置 */ 
+    "haskell.ghcMod.executablePath": "stack",
+    /* Haskell-linter配置 */
+	"haskell.hlint.executablePath": "C:\\Users\\bu123\\AppData\\Roaming\\local\\bin\\hlint.exe", 
+    /* Haskell stack-run配置 */
+    "code-runner.executorMap": {
+        "haskell": "cd $dir && stack runhaskell $fileName"
+    },
+    
+}

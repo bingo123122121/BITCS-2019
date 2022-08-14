@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ANTLRGenerationPreferences">
+    <option name="perGrammarGenerationSettings">
+      <list>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/bit/minisys/minicc/parser/myparser/CSubsetGrammarDesign.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="D:\Compiler\BIT-MiniCC\src\bit\minisys\minicc\parser\myparser" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
