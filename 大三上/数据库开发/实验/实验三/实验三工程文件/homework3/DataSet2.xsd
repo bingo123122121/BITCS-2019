@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="授课" msprop:Generator_TableClassName="授课DataTable" msprop:Generator_TableVarName="table授课" msprop:Generator_RowChangedName="授课RowChanged" msprop:Generator_TablePropName="授课" msprop:Generator_RowDeletingName="授课RowDeleting" msprop:Generator_RowChangingName="授课RowChanging" msprop:Generator_RowEvHandlerName="授课RowChangeEventHandler" msprop:Generator_RowDeletedName="授课RowDeleted" msprop:Generator_RowClassName="授课Row" msprop:Generator_UserTableName="授课" msprop:Generator_RowEvArgName="授课RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="课程名称" msprop:Generator_ColumnVarNameInTable="column课程名称" msprop:Generator_ColumnPropNameInRow="课程名称" msprop:Generator_ColumnPropNameInTable="课程名称Column" msprop:Generator_UserColumnName="课程名称">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="学分" msprop:Generator_ColumnVarNameInTable="column学分" msprop:Generator_ColumnPropNameInRow="学分" msprop:Generator_ColumnPropNameInTable="学分Column" msprop:Generator_UserColumnName="学分" type="xs:double" />
+              <xs:element name="授课教师" msprop:Generator_ColumnVarNameInTable="column授课教师" msprop:Generator_ColumnPropNameInRow="授课教师" msprop:Generator_ColumnPropNameInTable="授课教师Column" msprop:Generator_UserColumnName="授课教师">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="教室位置" msprop:Generator_ColumnVarNameInTable="column教室位置" msprop:Generator_ColumnPropNameInRow="教室位置" msprop:Generator_ColumnPropNameInTable="教室位置Column" msprop:Generator_UserColumnName="教室位置">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="授课时间" msprop:Generator_ColumnVarNameInTable="column授课时间" msprop:Generator_ColumnPropNameInRow="授课时间" msprop:Generator_ColumnPropNameInTable="授课时间Column" msprop:Generator_UserColumnName="授课时间">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="授课号" msprop:Generator_ColumnVarNameInTable="column授课号" msprop:Generator_ColumnPropNameInRow="授课号" msprop:Generator_ColumnPropNameInTable="授课号Column" msprop:Generator_UserColumnName="授课号" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

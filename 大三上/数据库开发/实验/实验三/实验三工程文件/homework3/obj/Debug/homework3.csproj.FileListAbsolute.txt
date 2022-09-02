@@ -1,0 +1,11 @@
+D:\大三上\数据库开发\作业3\homework3\homework3\bin\Debug\homework3.exe.config
+D:\大三上\数据库开发\作业3\homework3\homework3\bin\Debug\homework3.exe
+D:\大三上\数据库开发\作业3\homework3\homework3\bin\Debug\homework3.pdb
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.csproj.AssemblyReference.cache
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.Form1.resources
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.Properties.Resources.resources
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.csproj.GenerateResource.cache
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.csproj.CoreCompileInputs.cache
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.exe
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.pdb
+D:\大三上\数据库开发\作业3\homework3\homework3\obj\Debug\homework3.Form2.resources
